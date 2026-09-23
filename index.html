@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gateway School Complex</title>
+  <meta name="description" content="Gateway School Complex provides a supportive learning environment for learners from Elementary through Junior High School (JHS). Explore our academic programs, admissions, and school life.">
+  <meta name="keywords" content="Gateway School Complex, Elementary School, Junior High School, JHS, Education, Admissions, School">
+
+  <!-- Open Graph Metadata -->
+  <meta property="og:title" content="Gateway School Complex | Building Strong Foundations for a Brighter Future">
+  <meta property="og:description" content="A supportive, engaging learning environment for Elementary through Junior High School learners.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Outfit (Headings) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- CSS Design System -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+
+  <!-- Top Notification / Quick Contact Strip -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-contact">
+        <div class="top-bar-item">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          <span>+233 (0) 558663775</span>
+        </div>
+        <div class="top-bar-item">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          <span>gatewayschoolcomplex.gmail.com</span>
+        </div>
+      </div>
+      <div class="top-bar-badge">
+        <span>Now Accepting Enquiries for Elementary & JHS</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Main Header & Navigation -->
+  <header class="site-header" id="mainHeader">
+    <div class="container navbar">
+      <a href="index.html" class="brand-link" aria-label="Gateway School Complex Home">
+        <div class="brand-crest school-crest-svg" aria-hidden="true"></div>
+        <div class="brand-text">
+          <span class="brand-title">Gateway School Complex</span>
+          <span class="brand-subtitle">Elementary & Junior High</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="academics.html" class="nav-link">Academics</a>
+        <a href="admissions.html" class="nav-link">Admissions</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="news.html" class="nav-link">News & Events</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Desktop CTA Button -->
+      <div class="nav-cta">
+        <a href="admissions.html#enquiry" class="btn btn-accent btn-sm">
+          Apply for Admission
+          <span class="btn-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </span>
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="menu-toggle" aria-label="Open mobile menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer & Overlay -->
+  <div class="mobile-nav-overlay" aria-hidden="true"></div>
+  <aside class="mobile-drawer" aria-label="Mobile Navigation">
+    <div>
+      <div class="mobile-drawer-header">
+        <div class="brand-link">
+          <div class="brand-crest school-crest-svg" style="width:36px;height:36px;"></div>
+          <span class="brand-title" style="font-size:1rem;">Gateway School</span>
+        </div>
+        <button class="drawer-close" aria-label="Close menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <nav class="mobile-menu-list">
+        <a href="index.html" class="mobile-nav-link">Home</a>
+        <a href="about.html" class="mobile-nav-link">About</a>
+        <a href="academics.html" class="mobile-nav-link">Academics</a>
+        <a href="admissions.html" class="mobile-nav-link">Admissions</a>
+        <a href="gallery.html" class="mobile-nav-link">Gallery</a>
+        <a href="news.html" class="mobile-nav-link">News & Events</a>
+        <a href="contact.html" class="mobile-nav-link">Contact</a>
+      </nav>
+    </div>
+
+    <div class="mobile-drawer-footer">
+      <a href="admissions.html#enquiry" class="btn btn-accent" style="width:100%;">Apply for Admission</a>
+      <div style="font-size:0.8rem; color:var(--color-text-muted); text-align:center;">
+        Call: [School Phone Number]
+      </div>
+    </div>
+  </aside>
+
+  <main id="mainContent">
+
+    <!-- 1. Hero Section -->
+    <section class="hero-section" aria-label="Welcome Hero">
+      <img src="img/gateway-hero.jpg" alt="Students and teacher engaging in a vibrant classroom environment at Gateway School Complex" class="hero-background-img">
+      <div class="hero-overlay"></div>
+      
+      <div class="container hero-content">
+        <div class="hero-eyebrow">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <span>WELCOME TO GATEWAY SCHOOL COMPLEX</span>
+        </div>
+
+        <h1 class="hero-title">Building Strong Foundations for a Brighter Future</h1>
+
+        <p class="hero-lead">
+          Providing a supportive and engaging learning environment where children can grow academically, socially, and personally from Elementary through Junior High School.
+        </p>
+
+        <div class="hero-actions">
+          <a href="admissions.html#enquiry" class="btn btn-accent btn-lg">
+            Apply for Admission
+            <span class="btn-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </span>
+          </a>
+          <a href="#about" class="btn btn-outline-white btn-lg">Explore Our School</a>
+        </div>
+      </div>
+
+      <!-- Subtle Scroll Down Cue -->
+      <a href="#highlights" class="hero-scroll-cue" aria-label="Scroll to school highlights">
+        <div class="scroll-icon" aria-hidden="true"></div>
+        <span>Scroll Down</span>
+      </a>
+    </section>
+
+    <!-- 2. Trust & Quick Highlights Section -->
+    <section id="highlights" class="section" style="padding-top:0; padding-bottom:3rem;">
+      <div class="container">
+        <div class="trust-grid">
+          
+          <div class="trust-card">
+            <div class="trust-icon-box">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+              </svg>
+            </div>
+            <h3>Elementary Education</h3>
+            <p>A strong foundation for lifelong learning, fostering curiosity, literacy, and core cognitive skills.</p>
+          </div>
+
+          <div class="trust-card">
+            <div class="trust-icon-box">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+              </svg>
+            </div>
+            <h3>Junior High School</h3>
+            <p>Preparing learners with analytical depth and self-discipline for the next stage of their education.</p>
+          </div>
+
+          <div class="trust-card">
+            <div class="trust-icon-box">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+            </div>
+            <h3>Student Development</h3>
+            <p>Supporting academic excellence, character building, social empathy, and personal confidence.</p>
+          </div>
+
+          <div class="trust-card">
+            <div class="trust-icon-box">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+              </svg>
+            </div>
+            <h3>Community Focus</h3>
+            <p>Cultivating positive, transparent partnerships between learners, parents, teachers, and leadership.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. About Section -->
+    <section id="about" class="section section-bg-alt">
+      <div class="container">
+        <div class="about-two-col">
+          
+          <div class="about-visual">
+            <img src="img/gateway-campus.jpg" alt="Students walking through the Gateway School Complex campus courtyard" class="about-img-main">
+            <div class="about-badge-card">
+              <div class="badge-crest school-crest-svg" aria-hidden="true"></div>
+              <div>
+                <h4>Gateway School</h4>
+                <p>Nurturing Potential • Elementary to JHS</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-info">
+            <span class="eyebrow">ABOUT GATEWAY</span>
+            <h2 class="section-title">A Place to Learn, Grow and Thrive</h2>
+            <p class="lead">
+              Gateway School Complex serves learners from Elementary through Junior High School (JHS), dedicated to cultivating an inspiring, well-rounded learning atmosphere where every student is valued.
+            </p>
+            <p>
+              We focus on building strong literacy and quantitative foundations early, nurturing genuine curiosity, and mentoring young minds into independent, disciplined thinkers ready for future academic milestones.
+            </p>
+
+            <div style="margin-top:1.5rem;">
+              <h4 style="font-size:1.1rem; margin-bottom:0.75rem; color:var(--color-primary-dark);">
+                Our Core Values <span class="placeholder-tag">Proposed Values</span>
+              </h4>
+              <div class="values-grid" style="margin-top:0.75rem; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));">
+                
+                <div class="value-item">
+                  <div class="value-icon">
+                    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                  </div>
+                  <h4>Excellence</h4>
+                  <p>Commitment to high personal standards.</p>
+                </div>
+
+                <div class="value-item">
+                  <div class="value-icon">
+                    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                  </div>
+                  <h4>Discipline</h4>
+                  <p>Self-guidance and consistent habits.</p>
+                </div>
+
+                <div class="value-item">
+                  <div class="value-icon">
+                    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                  </div>
+                  <h4>Integrity</h4>
+                  <p>Honesty and moral accountability.</p>
+                </div>
+
+                <div class="value-item">
+                  <div class="value-icon">
+                    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                  </div>
+                  <h4>Respect</h4>
+                  <p>Kindness and dignity for everyone.</p>
+                </div>
+
+                <div class="value-item">
+                  <div class="value-icon">
+                    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+                  </div>
+                  <h4>Growth</h4>
+                  <p>Continuous personal improvement.</p>
+                </div>
+
+              </div>
+            </div>
+
+            <div style="margin-top:2rem;">
+              <a href="about.html" class="btn btn-primary">
+                Learn More About Us
+                <span class="btn-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Academics Overview Section -->
+    <section id="academics" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">ACADEMIC EXCELLENCE</span>
+          <h2 class="section-title">Our Academic Programs</h2>
+          <p class="section-subtitle">
+            A continuous, thoughtfully structured curriculum designed to engage young minds and guide them through their formative developmental stages.
+          </p>
+        </div>
+
+        <div class="program-grid">
+          
+          <!-- Elementary Card -->
+          <div class="program-card">
+            <div class="program-image-wrap">
+              <img src="img/gateway-community-4.jpg" alt="Elementary school students reading in the school library" loading="lazy">
+              <span class="program-badge">Elementary Division</span>
+            </div>
+            <div class="program-card-body">
+              <h3>Elementary Program</h3>
+              <p>Helping young learners develop strong academic foundations, curiosity, confidence, and essential learning skills.</p>
+              
+              <div class="program-features">
+                <div class="program-feature-item">
+                  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                  <span>Foundational literacy, phonics & reading comprehension</span>
+                </div>
+                <div class="program-feature-item">
+                  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                  <span>Core mathematics & numeracy problem solving</span>
+                </div>
+                <div class="program-feature-item">
+                  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                  <span>Personal development & social-emotional guidance</span>
+                </div>
+                <div class="program-feature-item">
+                  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                  <span>Engaging co-curricular activities, arts & physical play</span>
+                </div>
+              </div>
+
+              <div class="program-card-action">
+                <a href="academics.html#elementary" class="btn btn-outline-primary" style="width:100%;">
+                  Explore Elementary
+                  <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- JHS Card -->
+          <div class="program-card">
+            <div class="program-image-wrap">
+              <img src="img/gateway-activities-1.jpg" alt="Junior High School students in collaborative study" loading="lazy">
+              <span class="program-badge">JHS Division</span>
+            </div>
+            <div class="program-card-body">
+              <h3>Junior High School (JHS)</h3>
+              <p>Supporting learners as they develop deeper knowledge, independence, critical thinking, and preparation for their next stage of education.</p>
+              
+              <div class="program-features">
+                <div class="program-feature-item">
+                  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                  <span>Core academic subjects with deep concept mastery</span>
+                </div>
+                <div class="program-feature-item">
+                  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                  <span>Critical thinking, scientific inquiry & practical coursework</span>
+                </div>
+                <div class="program-feature-item">
+                  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                  <span>Personal responsibility, leadership & moral development</span>
+                </div>
+                <div class="program-feature-item">
+                  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                  <span>Disciplined preparation for high school transition</span>
+                </div>
+              </div>
+
+              <div class="program-card-action">
+                <a href="academics.html#jhs" class="btn btn-outline-primary" style="width:100%;">
+                  Explore JHS
+                  <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Why Families Choose Gateway Section -->
+    <section class="section section-bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">OUR COMMITMENT</span>
+          <h2 class="section-title">Why Families Choose Gateway</h2>
+          <p class="section-subtitle">
+            We focus on cultivating a dependable educational experience where academic diligence meets character and genuine care.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+            </div>
+            <h3>Supportive Learning Environment</h3>
+            <p>A positive, organized environment intentionally designed to encourage active learning, confidence, and personal discovery.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+            </div>
+            <h3>Dedicated Educators</h3>
+            <p>A committed teaching faculty focused on mentoring learners, diagnosing individual needs, and helping each student reach their potential.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <h3>Holistic Development</h3>
+            <p>Supporting academic subjects alongside sports, creative expression, leadership, and emotional well-being for balanced growth.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+            </div>
+            <h3>Strong Foundations</h3>
+            <p>Guiding learners systematically from foundational elementary concepts directly into the rigor and depth of Junior High School.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            </div>
+            <h3>Safe & Welcoming Community</h3>
+            <p>A caring campus atmosphere encouraging positive relationships, mutual accountability, and safety among all children and staff.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+            </div>
+            <h3>Parent Engagement</h3>
+            <p>Keeping communication between the school and families accessible, informative, and collaborative throughout every school term.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. School Experience / Facilities Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">CAMPUS LIFE</span>
+          <h2 class="section-title">Experience Gateway</h2>
+          <p class="section-subtitle">
+            A glimpse into our classrooms, learning spaces, and everyday activities designed to inspire student engagement.
+          </p>
+        </div>
+
+        <div class="experience-grid">
+          
+          <div class="experience-card" onclick="window.location.href='gallery.html'">
+            <img src="img/gateway-hero.jpg" alt="Classrooms and Learning Spaces" loading="lazy">
+            <div class="experience-card-overlay">
+              <span>Learning Environment</span>
+              <h4>Modern Classrooms</h4>
+            </div>
+          </div>
+
+          <div class="experience-card" onclick="window.location.href='gallery.html'">
+            <img src="img/gateway-activities-2.jpg" alt="Science and Practical Activities" loading="lazy">
+            <div class="experience-card-overlay">
+              <span>Discovery</span>
+              <h4>Science & Learning Activities</h4>
+            </div>
+          </div>
+
+          <div class="experience-card" onclick="window.location.href='gallery.html'">
+            <img src="img/gateway-community-4.jpg" alt="Library and Resource Area" loading="lazy">
+            <div class="experience-card-overlay">
+              <span>Resources</span>
+              <h4>School Library & Reading</h4>
+            </div>
+          </div>
+
+          <div class="experience-card" onclick="window.location.href='gallery.html'">
+            <img src="img/gateway-activities-3.jpg" alt="Physical Education and Sports" loading="lazy">
+            <div class="experience-card-overlay">
+              <span>Athletics</span>
+              <h4>Sports & Physical Education</h4>
+            </div>
+          </div>
+
+          <div class="experience-card" onclick="window.location.href='gallery.html'">
+            <img src="img/gateway-activities-4.jpg" alt="Creative Arts and Crafts" loading="lazy">
+            <div class="experience-card-overlay">
+              <span>Creativity</span>
+              <h4>Arts & Practical Culture</h4>
+            </div>
+          </div>
+
+          <div class="experience-card" onclick="window.location.href='gallery.html'">
+            <img src="img/gateway-campus.jpg" alt="Campus Courtyard and Assemblies" loading="lazy">
+            <div class="experience-card-overlay">
+              <span>Community</span>
+              <h4>Campus Life & Walkways</h4>
+            </div>
+          </div>
+
+        </div>
+
+        <div style="text-align:center; margin-top:2.5rem;">
+          <a href="gallery.html" class="btn btn-outline-primary">
+            View Full Photo Gallery
+            <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Admissions 3-Step Process CTA Section -->
+    <section class="section section-bg-primary">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">ENROLLMENT</span>
+          <h2 class="section-title">Give Your Child a Strong Start</h2>
+          <p class="section-subtitle">
+            Interested in Gateway School Complex? Learn about our admission process and take the next step toward joining our learning community.
+          </p>
+        </div>
+
+        <div class="steps-grid">
+          
+          <div class="step-card">
+            <div class="step-number">01</div>
+            <h3>Make an Enquiry</h3>
+            <p>Contact the school office or submit our online form to learn more about grade availability and curriculum specifics.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">02</div>
+            <h3>Submit Your Application</h3>
+            <p>Follow the school's admission requirements and application process, providing academic records and registration forms.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">03</div>
+            <h3>Begin the Journey</h3>
+            <p>Complete the admission onboarding process, receive term supplies and uniforms, and prepare for an inspiring school year.</p>
+          </div>
+
+        </div>
+
+        <div style="text-align:center; margin-top:3.5rem;">
+          <a href="admissions.html#enquiry" class="btn btn-accent btn-lg">
+            Start Admission Enquiry
+            <span class="btn-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Latest News & Events Preview Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">UPDATES & HAPPENINGS</span>
+          <h2 class="section-title">Latest News & Events</h2>
+          <p class="section-subtitle">
+            Stay connected with announcements, academic milestones, and upcoming campus activities.
+          </p>
+        </div>
+
+        <div class="news-grid">
+          
+          <article class="news-card">
+            <div class="news-image-wrap">
+              <img src="img/gateway-campus.jpg" alt="Welcome to the New Academic Year" loading="lazy">
+              <span class="news-category">Announcements</span>
+            </div>
+            <div class="news-card-body">
+              <div class="news-meta">
+                <span>Demonstration Date</span>
+                <span>•</span>
+                <span class="placeholder-tag" style="margin-left:0;">Sample Post</span>
+              </div>
+              <h3>Welcome to the New Academic Year</h3>
+              <p>Gateway School Complex warmly welcomes all returning and new learners as we embark on another term of discovery and personal growth.</p>
+              <div class="news-card-action">
+                <a href="news.html" class="btn btn-outline-primary btn-sm">Read More</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-image-wrap">
+              <img src="img/gateway-community-2.jpg" alt="Parent Engagement Day" loading="lazy">
+              <span class="news-category">School Events</span>
+            </div>
+            <div class="news-card-body">
+              <div class="news-meta">
+                <span>Upcoming Event</span>
+                <span>•</span>
+                <span class="placeholder-tag" style="margin-left:0;">Sample Post</span>
+              </div>
+              <h3>Parent & Teacher Engagement Day</h3>
+              <p>Join us for our interactive parent-teacher session to review learner milestones, classroom progress, and collaborative goals for the term.</p>
+              <div class="news-card-action">
+                <a href="news.html" class="btn btn-outline-primary btn-sm">Read More</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-image-wrap">
+              <img src="img/gateway-activities-2.jpg" alt="Science Discovery Day" loading="lazy">
+              <span class="news-category">Academic Life</span>
+            </div>
+            <div class="news-card-body">
+              <div class="news-meta">
+                <span>Demonstration Date</span>
+                <span>•</span>
+                <span class="placeholder-tag" style="margin-left:0;">Sample Post</span>
+              </div>
+              <h3>Elementary Science Discovery Showcase</h3>
+              <p>Learners demonstrate scientific principles through hands-on experiments, biological models, and creative problem-solving projects.</p>
+              <div class="news-card-action">
+                <a href="news.html" class="btn btn-outline-primary btn-sm">Read More</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div style="text-align:center; margin-top:2.5rem;">
+          <a href="news.html" class="btn btn-primary">
+            View All News & Events
+            <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. Testimonials (Clearly Labeled Placeholders) -->
+    <section class="section section-bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">COMMUNITY PERSPECTIVE</span>
+          <h2 class="section-title">What Our Community Says</h2>
+          <p class="section-subtitle">
+            Reflections from parents and partners. <span class="placeholder-tag">Placeholder Content Pending School Approval</span>
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          
+          <div class="testimonial-card">
+            <div class="testimonial-quote-icon">
+              <svg fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+            </div>
+            <p class="testimonial-text">
+              "The environment at Gateway provides the structured guidance and warmth our children needed. The teachers take time to understand each pupil's pace and encourage them daily."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">PE</div>
+              <div class="author-info">
+                <h4>Parent Testimonial — Placeholder</h4>
+                <span>Parent of Elementary Learner</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-quote-icon">
+              <svg fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+            </div>
+            <p class="testimonial-text">
+              "Watching our learners transition from elementary fundamentals into confident, analytical Junior High School students is deeply rewarding. Communication with families is top priority."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">PT</div>
+              <div class="author-info">
+                <h4>PTA Representative — Placeholder</h4>
+                <span>Parent-Teacher Association Sample</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-quote-icon">
+              <svg fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+            </div>
+            <p class="testimonial-text">
+              "The focus on core values like discipline, respect, and hard work creates a calm, focused classroom atmosphere where learners feel motivated to do their best."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">PJ</div>
+              <div class="author-info">
+                <h4>Parent Testimonial — Placeholder</h4>
+                <span>Parent of JHS Learner</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. Contact Quick Section -->
+    <section id="contact-preview" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">GET IN TOUCH</span>
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="section-subtitle">
+            Have questions about Gateway School Complex or would like to schedule a campus visit? We are here to assist you.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+          
+          <div class="contact-info-cards">
+            
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              </div>
+              <div>
+                <h4>Call Our Office</h4>
+                <p>[School Phone Number]</p>
+                <p style="font-size:0.85rem; color:var(--color-text-muted);">Mon – Fri, 7:30 AM – 4:30 PM</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              </div>
+              <div>
+                <h4>Email Inquiries</h4>
+                <p>[School Email Address]</p>
+                <p style="font-size:0.85rem; color:var(--color-text-muted);">General & Admissions correspondence</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              </div>
+              <div>
+                <h4>Campus Location</h4>
+                <p>[School Address / Street Location]</p>
+                <p style="font-size:0.85rem; color:var(--color-text-muted);">[City / Region, Ghana]</p>
+              </div>
+            </div>
+
+            <div class="whatsapp-box">
+              <div>
+                <h4>Connect on WhatsApp</h4>
+                <p>Quick questions about admissions or scheduling a visit?</p>
+              </div>
+              <a href="https://wa.me/000000000000" target="_blank" rel="noopener noreferrer" class="btn-whatsapp">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.301-.15-1.78-.879-2.056-.979-.276-.101-.476-.15-.677.15-.2.301-.776.979-.952 1.18-.175.2-.351.226-.652.075-.301-.151-1.27-.468-2.42-1.493-.895-.798-1.5-1.784-1.676-2.085-.175-.301-.019-.464.132-.614.136-.135.301-.351.452-.527.15-.175.2-.301.301-.501.101-.2.051-.376-.025-.526-.075-.151-.677-1.632-.927-2.235-.243-.587-.49-.508-.677-.517-.175-.009-.376-.009-.576-.009-.201 0-.527.075-.803.376-.276.301-1.053 1.029-1.053 2.509 0 1.48 1.078 2.91 1.229 3.111.15.2 2.122 3.24 5.141 4.544.718.31 1.279.495 1.716.634.722.23 1.379.197 1.9.119.58-.088 1.78-.727 2.03-1.43.251-.703.251-1.305.176-1.43-.076-.125-.276-.201-.577-.352zM12.04 2C6.516 2 2.028 6.488 2.028 12.012c0 1.947.558 3.766 1.527 5.312L2 22l4.823-1.503a9.96 9.96 0 005.217 1.515c5.524 0 10.012-4.488 10.012-10.012C22.052 6.488 17.564 2 12.04 2z"/></svg>
+                Chat on WhatsApp
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Quick Contact Form -->
+          <div style="background-color:var(--color-bg-main); border:1px solid var(--color-border); border-radius:var(--radius-xl); padding:2.5rem; box-shadow:var(--shadow-md);">
+            <h3 style="font-size:1.4rem; margin-bottom:0.5rem;">Send an Online Message</h3>
+            <p style="font-size:0.95rem; color:var(--color-text-muted); margin-bottom:2rem;">Fill out this form and our administrative staff will respond to you promptly.</p>
+            
+            <form id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="fullName" class="form-label">Full Name <span class="required">*</span></label>
+                  <input type="text" id="fullName" class="form-control" placeholder="e.g. Samuel Mensah" required>
+                  <span class="form-error">Please enter your full name.</span>
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Email Address <span class="required">*</span></label>
+                  <input type="email" id="email" class="form-control" placeholder="name@example.com" required>
+                  <span class="form-error">Please enter a valid email address.</span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone" class="form-label">Phone Number <span class="required">*</span></label>
+                  <input type="tel" id="phone" class="form-control" placeholder="e.g. 024 123 4567" required>
+                  <span class="form-error">Please enter a valid telephone number.</span>
+                </div>
+                <div class="form-group">
+                  <label for="subject" class="form-label">Inquiry Subject <span class="required">*</span></label>
+                  <select id="subject" class="form-control" required>
+                    <option value="">Select subject...</option>
+                    <option value="Admissions Information">Admissions Information</option>
+                    <option value="Elementary Program">Elementary Program</option>
+                    <option value="JHS Program">Junior High School (JHS)</option>
+                    <option value="Schedule a Campus Visit">Schedule a Campus Visit</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                  </select>
+                  <span class="form-error">Please select an inquiry subject.</span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Your Message <span class="required">*</span></label>
+                <textarea id="message" class="form-control" rows="4" placeholder="How can we assist you and your family?" required></textarea>
+                <span class="form-error">Please write your message.</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width:100%; padding:0.95rem;">
+                Submit Enquiry
+                <span class="btn-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+                </span>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Professional Multi-Column Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        
+        <!-- Column 1: School Brand -->
+        <div class="footer-brand">
+          <a href="index.html" class="brand-link" style="color:#fff;">
+            <div class="brand-crest school-crest-svg" style="width:42px;height:42px;"></div>
+            <div class="brand-text">
+              <span class="brand-title" style="color:#fff; font-size:1.15rem;">Gateway School Complex</span>
+              <span class="brand-subtitle" style="color:var(--color-accent-light);">Elementary & Junior High</span>
+            </div>
+          </a>
+          <p>
+            Providing a supportive, high-caliber learning atmosphere for learners from Elementary through Junior High School. Building strong academic, moral, and personal foundations for a brighter tomorrow.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="social-link" aria-label="Facebook (Placeholder)">
+              <svg fill="currentColor" viewBox="0 0 24 24"><path d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.374 14.5 5 15.688 5H18V0h-3.808C10.597 0 9 1.583 9 4.615V8z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram (Placeholder)">
+              <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="WhatsApp (Placeholder)">
+              <svg fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.301-.15-1.78-.879-2.056-.979-.276-.101-.476-.15-.677.15-.2.301-.776.979-.952 1.18-.175.2-.351.226-.652.075-.301-.151-1.27-.468-2.42-1.493-.895-.798-1.5-1.784-1.676-2.085-.175-.301-.019-.464.132-.614.136-.135.301-.351.452-.527.15-.175.2-.301.301-.501.101-.2.051-.376-.025-.526-.075-.151-.677-1.632-.927-2.235-.243-.587-.49-.508-.677-.517-.175-.009-.376-.009-.576-.009-.201 0-.527.075-.803.376-.276.301-1.053 1.029-1.053 2.509 0 1.48 1.078 2.91 1.229 3.111.15.2 2.122 3.24 5.141 4.544.718.31 1.279.495 1.716.634.722.23 1.379.197 1.9.119.58-.088 1.78-.727 2.03-1.43.251-.703.251-1.305.176-1.43-.076-.125-.276-.201-.577-.352zM12.04 2C6.516 2 2.028 6.488 2.028 12.012c0 1.947.558 3.766 1.527 5.312L2 22l4.823-1.503a9.96 9.96 0 005.217 1.515c5.524 0 10.012-4.488 10.012-10.012C22.052 6.488 17.564 2 12.04 2z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="YouTube (Placeholder)">
+              <svg fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Our School</a></li>
+            <li><a href="academics.html">Academic Programs</a></li>
+            <li><a href="admissions.html">Admissions Overview</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="news.html">News & Events</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Admissions & Levels -->
+        <div class="footer-col">
+          <h4>Admissions</h4>
+          <ul class="footer-links">
+            <li><a href="admissions.html">Admission Process</a></li>
+            <li><a href="admissions.html#enquiry">Online Enquiry</a></li>
+            <li><a href="academics.html#elementary">Elementary Program</a></li>
+            <li><a href="academics.html#jhs">Junior High School</a></li>
+            <li><a href="admissions.html#faqs">Admissions FAQ</a></li>
+            <li><a href="contact.html">Schedule Campus Tour</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Contact Details -->
+        <div class="footer-col">
+          <h4>School Office</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/></svg>
+              <span>[School Address / Street Location, City, Ghana]</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              <span>[School Phone Number]</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              <span>[School Email Address]</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <span>Mon – Fri: 7:30 AM – 4:30 PM</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 Gateway School Complex. All rights reserved.
+        </div>
+        <div class="footer-dev-credit">
+          Website designed & developed for Gateway School Complex
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/school-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
